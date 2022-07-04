@@ -1,0 +1,23 @@
+<ion-header>
+
+	<ion-toolbar color="danger">
+		<ion-title>
+			Tinder Design
+		</ion-title>
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <app-tinder-ui [cards]="cards" (choiceMade)="logChoice($event)"></app-tinder-ui>
+
+</ion-content>
+
+<ion-footer>
+
+  <ion-toolbar>
+    <ion-button color="danger" expand="full" (click)="loadTinderCards()">Load Tinder Cards!</ion-button>
+  </ion-toolbar>
+
+</ion-footer>

@@ -1,0 +1,7 @@
+{
+  "name": "tinder-card",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
